@@ -31,6 +31,7 @@ const AddUser = () => {
 
 	const addUserDetails = async () => {
 		await addUser(user);
+		// console.log("Pressed");
 		navigate("/all");
 	}
 
@@ -51,11 +52,7 @@ const AddUser = () => {
 			</FormControl>
 			<FormControl>
 			<TextField id="filled-basic" label="Phone Number" variant="filled" onChange={ (e) => onValueChange(e)} name="phone"/>
-			</FormControl>
-			{/* <FormControl>
-			<TextField id="filled-basic" label="Password" variant="filled" type={'password'} onChange={ (e) => onValueChange(e)}/>
-			</FormControl> */}
-			<FormControl>
+			
 			<Button variant="contained" sx={{mt : 1, ml : 25, mr : 25, background:'#b134eb'}} onClick={() => addUserDetails()}>ADD USER</Button>
 
 			</FormControl>

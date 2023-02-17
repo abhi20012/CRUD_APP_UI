@@ -1,8 +1,8 @@
 import axios from 'axios'; //to call apis
 
 
-//const URL = "http://localhost:8000"; //connect client and server together, all the apis hit on this port
-const URL = "https://crud-server-55m3.onrender.com";
+const URL = "http://localhost:8000"; //connect client and server together, all the apis hit on this port
+
 
 
 

@@ -24,7 +24,7 @@ export default function NavBar() {
   return (
       <BlackBar position="static">
         <Toolbar>
-			<Tags to='/'>Login/Register</Tags>
+			<Tags to='/'>Login</Tags>
         	<Tags to='/add'>Add User</Tags>
         	<Tags to='/all'>All User</Tags>
         </Toolbar>
